@@ -20,8 +20,8 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/go-fed/apcore/models"
-	"github.com/go-fed/apcore/util"
+	"github.com/allinbits/apcore/models"
+	"github.com/allinbits/apcore/util"
 	"github.com/go-fed/oauth2"
 )
 

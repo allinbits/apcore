@@ -4,7 +4,6 @@ go 1.24
 
 require (
 	github.com/go-fed/activity v1.0.1-0.20201213224552-472d90163f3a
-	github.com/go-fed/apcore v0.0.0-20210805064653-46677ce56296
 	github.com/go-fed/httpsig v1.1.1-0.20201221212626-dda7895774cb
 	github.com/go-fed/oauth2 v1.2.1-0.20201216115557-3ad6eea84720
 	github.com/google/logger v1.1.1

@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/allinbits/apcore/models"
 	"github.com/go-fed/activity/streams"
 	"github.com/go-fed/activity/streams/vocab"
-	"github.com/go-fed/apcore/models"
 )
 
 var (

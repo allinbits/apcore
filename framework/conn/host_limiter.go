@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-fed/apcore/framework/config"
+	"github.com/allinbits/apcore/framework/config"
 	"golang.org/x/time/rate"
 )
 

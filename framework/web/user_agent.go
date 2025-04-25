@@ -19,7 +19,7 @@ package web
 import (
 	"fmt"
 
-	"github.com/go-fed/apcore/app"
+	"github.com/allinbits/apcore/app"
 )
 
 func UserAgent(s app.Software) string {

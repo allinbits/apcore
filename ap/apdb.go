@@ -22,9 +22,9 @@ import (
 	"net/url"
 	"sync"
 
+	"github.com/allinbits/apcore/app"
 	"github.com/go-fed/activity/pub"
 	"github.com/go-fed/activity/streams/vocab"
-	"github.com/go-fed/apcore/app"
 )
 
 var _ pub.Database = &APDB{}

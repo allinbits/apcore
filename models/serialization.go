@@ -26,10 +26,10 @@ import (
 	"net/url"
 	"time"
 
+	"github.com/allinbits/apcore/app"
 	"github.com/go-fed/activity/pub"
 	"github.com/go-fed/activity/streams"
 	"github.com/go-fed/activity/streams/vocab"
-	"github.com/go-fed/apcore/app"
 	"github.com/microcosm-cc/bluemonday"
 )
 

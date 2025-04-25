@@ -20,9 +20,9 @@ import (
 	"database/sql"
 	"net/url"
 
+	"github.com/allinbits/apcore/models"
+	"github.com/allinbits/apcore/util"
 	"github.com/go-fed/activity/pub"
-	"github.com/go-fed/apcore/models"
-	"github.com/go-fed/apcore/util"
 )
 
 type Policies struct {

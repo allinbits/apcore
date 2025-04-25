@@ -20,7 +20,7 @@ import (
 	"database/sql"
 	"net/url"
 
-	"github.com/go-fed/apcore/util"
+	"github.com/allinbits/apcore/util"
 )
 
 var _ Model = &Liked{}

@@ -22,7 +22,7 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/go-fed/apcore/util"
+	"github.com/allinbits/apcore/util"
 )
 
 type Resolution struct {

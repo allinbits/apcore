@@ -20,9 +20,9 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/go-fed/apcore/app"
-	"github.com/go-fed/apcore/models"
-	"github.com/go-fed/apcore/util"
+	"github.com/allinbits/apcore/app"
+	"github.com/allinbits/apcore/models"
+	"github.com/allinbits/apcore/util"
 )
 
 type Any struct {

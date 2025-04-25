@@ -21,8 +21,8 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/go-fed/apcore/models"
-	"github.com/go-fed/apcore/util"
+	"github.com/allinbits/apcore/models"
+	"github.com/allinbits/apcore/util"
 	"golang.org/x/crypto/bcrypt"
 )
 

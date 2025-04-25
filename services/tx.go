@@ -19,7 +19,7 @@ package services
 import (
 	"database/sql"
 
-	"github.com/go-fed/apcore/util"
+	"github.com/allinbits/apcore/util"
 )
 
 // doInTx wraps the operations in fn with a single database transaction.

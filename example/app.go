@@ -25,12 +25,12 @@ import (
 	"strings"
 	"time"
 
+	"github.com/allinbits/apcore/app"
+	"github.com/allinbits/apcore/paths"
+	"github.com/allinbits/apcore/util"
 	"github.com/go-fed/activity/pub"
 	"github.com/go-fed/activity/streams"
 	"github.com/go-fed/activity/streams/vocab"
-	"github.com/go-fed/apcore/app"
-	"github.com/go-fed/apcore/paths"
-	"github.com/go-fed/apcore/util"
 	"github.com/google/uuid"
 )
 

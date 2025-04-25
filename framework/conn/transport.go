@@ -26,13 +26,13 @@ import (
 	"net/url"
 	"sync"
 
+	"github.com/allinbits/apcore/app"
+	"github.com/allinbits/apcore/framework/config"
+	"github.com/allinbits/apcore/framework/web"
+	"github.com/allinbits/apcore/paths"
+	"github.com/allinbits/apcore/services"
+	"github.com/allinbits/apcore/util"
 	"github.com/go-fed/activity/pub"
-	"github.com/go-fed/apcore/app"
-	"github.com/go-fed/apcore/framework/config"
-	"github.com/go-fed/apcore/framework/web"
-	"github.com/go-fed/apcore/paths"
-	"github.com/go-fed/apcore/services"
-	"github.com/go-fed/apcore/util"
 	"github.com/go-fed/httpsig"
 )
 

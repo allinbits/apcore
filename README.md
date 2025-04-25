@@ -8,7 +8,7 @@
 [![Go Report Card][Go-Report-Card-Image]][Go-Report-Card-Url] [![License][License-Image]][License-Url]
 [![Chat][Chat-Image]][Chat-Url] [![OpenCollective][OpenCollective-Image]][OpenCollective-Url]
 
-`go get github.com/go-fed/apcore`
+`go get github.com/allinbits/apcore`
 
 apcore is a powerful single server
 [ActivityPub](https://www.w3.org/TR/activitypub)
@@ -69,10 +69,10 @@ See the documentation on the `Application` interface for specific details.
 
 [Build-Status-Image]: https://travis-ci.org/go-fed/apcore.svg?branch=master
 [Build-Status-Url]: https://travis-ci.org/go-fed/apcore
-[Go-Reference-Image]: https://pkg.go.dev/badge/github.com/go-fed/apcore.svg
-[Go-Reference-Url]: https://pkg.go.dev/github.com/go-fed/apcore
-[Go-Report-Card-Image]: https://goreportcard.com/badge/github.com/go-fed/apcore
-[Go-Report-Card-Url]: https://goreportcard.com/report/github.com/go-fed/apcore
+[Go-Reference-Image]: https://pkg.go.dev/badge/github.com/allinbits/apcore.svg
+[Go-Reference-Url]: https://pkg.go.dev/github.com/allinbits/apcore
+[Go-Report-Card-Image]: https://goreportcard.com/badge/github.com/allinbits/apcore
+[Go-Report-Card-Url]: https://goreportcard.com/report/github.com/allinbits/apcore
 [License-Image]: https://img.shields.io/github/license/go-fed/apcore?color=blue
 [License-Url]: https://www.gnu.org/licenses/agpl-3.0.en.html
 [Chat-Image]: https://img.shields.io/matrix/go-fed:feneas.org?server_fqdn=matrix.org

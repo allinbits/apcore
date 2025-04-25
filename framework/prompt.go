@@ -22,8 +22,8 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/allinbits/apcore/services"
 	"github.com/go-fed/activity/pub"
-	"github.com/go-fed/apcore/services"
 	"github.com/manifoldco/promptui"
 )
 

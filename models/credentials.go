@@ -20,7 +20,7 @@ import (
 	"database/sql"
 	"time"
 
-	"github.com/go-fed/apcore/util"
+	"github.com/allinbits/apcore/util"
 	"github.com/go-fed/oauth2"
 )
 

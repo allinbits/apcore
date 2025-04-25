@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/go-fed/apcore/app"
-	srv "github.com/go-fed/apcore/services"
-	"github.com/go-fed/apcore/util"
+	"github.com/allinbits/apcore/app"
+	srv "github.com/allinbits/apcore/services"
+	"github.com/allinbits/apcore/util"
 )
 
 // This file contains the NodeInfo2 v1 implementation.

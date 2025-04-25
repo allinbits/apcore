@@ -19,8 +19,8 @@ package framework
 import (
 	"fmt"
 
-	"github.com/go-fed/apcore/framework/config"
-	"github.com/go-fed/apcore/services"
+	"github.com/allinbits/apcore/framework/config"
+	"github.com/allinbits/apcore/services"
 )
 
 func PromptNewConfig(file string) (c *config.Config, err error) {

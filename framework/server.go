@@ -24,11 +24,11 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/go-fed/apcore/app"
-	"github.com/go-fed/apcore/framework/config"
-	"github.com/go-fed/apcore/framework/db"
-	"github.com/go-fed/apcore/models"
-	"github.com/go-fed/apcore/util"
+	"github.com/allinbits/apcore/app"
+	"github.com/allinbits/apcore/framework/config"
+	"github.com/allinbits/apcore/framework/db"
+	"github.com/allinbits/apcore/models"
+	"github.com/allinbits/apcore/util"
 )
 
 type StartStopper interface {

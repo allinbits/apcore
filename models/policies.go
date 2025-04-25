@@ -26,7 +26,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/go-fed/apcore/util"
+	"github.com/allinbits/apcore/util"
 	"github.com/tidwall/gjson"
 )
 

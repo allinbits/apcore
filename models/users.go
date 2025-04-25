@@ -21,7 +21,7 @@ import (
 	"database/sql/driver"
 	"net/url"
 
-	"github.com/go-fed/apcore/util"
+	"github.com/allinbits/apcore/util"
 )
 
 type CreateUser struct {

@@ -21,9 +21,9 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/go-fed/apcore/models"
-	"github.com/go-fed/apcore/paths"
-	"github.com/go-fed/apcore/util"
+	"github.com/allinbits/apcore/models"
+	"github.com/allinbits/apcore/paths"
+	"github.com/allinbits/apcore/util"
 )
 
 type DeliveryAttempts struct {

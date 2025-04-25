@@ -38,9 +38,9 @@ package nodeinfo
 import (
 	"net/http"
 
-	"github.com/go-fed/apcore/app"
-	"github.com/go-fed/apcore/framework/config"
-	srv "github.com/go-fed/apcore/services"
+	"github.com/allinbits/apcore/app"
+	"github.com/allinbits/apcore/framework/config"
+	srv "github.com/allinbits/apcore/services"
 )
 
 type PathHandler struct {

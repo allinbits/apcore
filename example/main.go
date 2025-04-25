@@ -17,8 +17,8 @@
 package main
 
 import (
-	"github.com/go-fed/apcore"
-	"github.com/go-fed/apcore/app"
+	"github.com/allinbits/apcore"
+	"github.com/allinbits/apcore/app"
 )
 
 func main() {

@@ -24,9 +24,9 @@ import (
 	"sync"
 	"time"
 
+	"github.com/allinbits/apcore/models"
+	"github.com/allinbits/apcore/util"
 	"github.com/go-fed/activity/pub"
-	"github.com/go-fed/apcore/models"
-	"github.com/go-fed/apcore/util"
 )
 
 type NodeInfoStats struct {

@@ -23,9 +23,9 @@ import (
 	"net/http"
 	"net/url"
 
+	"github.com/allinbits/apcore/paths"
 	"github.com/go-fed/activity/pub"
 	"github.com/go-fed/activity/streams/vocab"
-	"github.com/go-fed/apcore/paths"
 )
 
 const (

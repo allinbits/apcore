@@ -19,10 +19,10 @@ package services
 import (
 	"net/url"
 
+	"github.com/allinbits/apcore/paths"
 	"github.com/go-fed/activity/pub"
 	"github.com/go-fed/activity/streams"
 	"github.com/go-fed/activity/streams/vocab"
-	"github.com/go-fed/apcore/paths"
 )
 
 // addNextPrev adds the 'next' and 'prev' properties onto a page, if required.

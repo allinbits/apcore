@@ -1,0 +1,23 @@
+# Configuration file template for apcore application
+
+[database]
+pg_user = apcore
+pg_host = localhost
+pg_port = 5432
+pg_db_name = apcoredb
+password = secret
+pg_ssl_mode = disable
+pg_schema = public
+
+[server]
+host = 0.0.0.0
+port = 8080
+
+[logging]
+level = info
+file = /var/log/apcore.log
+
+[security]
+enable_ssl = true
+cert_file = /path/to/cert.pem
+key_file = /path/to/key.pem

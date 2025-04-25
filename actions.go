@@ -19,10 +19,10 @@ package apcore
 import (
 	"context"
 
-	"github.com/go-fed/apcore/app"
-	"github.com/go-fed/apcore/framework"
-	"github.com/go-fed/apcore/services"
-	"github.com/go-fed/apcore/util"
+	"github.com/allinbits/apcore/app"
+	"github.com/allinbits/apcore/framework"
+	"github.com/allinbits/apcore/services"
+	"github.com/allinbits/apcore/util"
 )
 
 func doCreateTables(configFilePath string, a app.Application, debug bool, scheme string) error {

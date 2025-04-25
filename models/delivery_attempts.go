@@ -21,7 +21,7 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/go-fed/apcore/util"
+	"github.com/allinbits/apcore/util"
 )
 
 // These constants are used to mark the simple state of the delivery attempt.

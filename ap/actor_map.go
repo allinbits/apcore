@@ -17,11 +17,11 @@
 package ap
 
 import (
+	"github.com/allinbits/apcore/framework/config"
+	"github.com/allinbits/apcore/framework/conn"
+	"github.com/allinbits/apcore/paths"
+	"github.com/allinbits/apcore/services"
 	"github.com/go-fed/activity/pub"
-	"github.com/go-fed/apcore/framework/config"
-	"github.com/go-fed/apcore/framework/conn"
-	"github.com/go-fed/apcore/paths"
-	"github.com/go-fed/apcore/services"
 )
 
 func NewActorMap(c *config.Config,

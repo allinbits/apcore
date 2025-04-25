@@ -19,9 +19,9 @@ package framework
 import (
 	"fmt"
 
-	"github.com/go-fed/apcore/app"
-	"github.com/go-fed/apcore/framework/config"
-	"github.com/go-fed/apcore/util"
+	"github.com/allinbits/apcore/app"
+	"github.com/allinbits/apcore/framework/config"
+	"github.com/allinbits/apcore/util"
 	"golang.org/x/crypto/bcrypt"
 	"gopkg.in/ini.v1"
 )

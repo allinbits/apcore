@@ -19,10 +19,10 @@ package services
 import (
 	"net/url"
 
+	"github.com/allinbits/apcore/paths"
+	"github.com/allinbits/apcore/util"
 	"github.com/go-fed/activity/pub"
 	"github.com/go-fed/activity/streams/vocab"
-	"github.com/go-fed/apcore/paths"
-	"github.com/go-fed/apcore/util"
 )
 
 func getOffsetN(iri *url.URL, defaultSize, maxSize int) (offset, n int) {

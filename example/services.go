@@ -20,11 +20,11 @@ import (
 	"context"
 	"net/url"
 
+	"github.com/allinbits/apcore/app"
+	"github.com/allinbits/apcore/models"
+	"github.com/allinbits/apcore/util"
 	"github.com/go-fed/activity/streams"
 	"github.com/go-fed/activity/streams/vocab"
-	"github.com/go-fed/apcore/app"
-	"github.com/go-fed/apcore/models"
-	"github.com/go-fed/apcore/util"
 )
 
 func getLatestPublicNotes(ctx context.Context, db app.Database) (notes []vocab.Type, err error) {

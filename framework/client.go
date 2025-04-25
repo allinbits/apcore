@@ -20,7 +20,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/go-fed/apcore/framework/config"
+	"github.com/allinbits/apcore/framework/config"
 )
 
 func NewHTTPClient(c *config.Config) *http.Client {

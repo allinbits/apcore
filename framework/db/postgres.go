@@ -17,7 +17,7 @@
 package db
 
 import (
-	"github.com/go-fed/apcore/models"
+	"github.com/allinbits/apcore/models"
 )
 
 var _ models.SqlDialect = &pgV0{}

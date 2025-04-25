@@ -19,7 +19,7 @@
 package apcore
 
 import (
-	"github.com/go-fed/apcore/app"
+	"github.com/allinbits/apcore/app"
 )
 
 const (
@@ -27,7 +27,7 @@ const (
 	apcoreMajorVersion = 0
 	apcoreMinorVersion = 1
 	apcorePatchVersion = 0
-	apcoreRepository   = "https://github.com/go-fed/apcore"
+	apcoreRepository   = "https://github.com/allinbits/apcore"
 )
 
 func apCoreSoftware() app.Software {

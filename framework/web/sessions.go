@@ -21,8 +21,8 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/go-fed/apcore/framework/config"
-	"github.com/go-fed/apcore/util"
+	"github.com/allinbits/apcore/framework/config"
+	"github.com/allinbits/apcore/util"
 	gs "github.com/gorilla/sessions"
 )
 

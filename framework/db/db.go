@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/go-fed/apcore/framework/config"
-	"github.com/go-fed/apcore/models"
-	"github.com/go-fed/apcore/util"
+	"github.com/allinbits/apcore/framework/config"
+	"github.com/allinbits/apcore/models"
+	"github.com/allinbits/apcore/util"
 	_ "github.com/jackc/pgx/v4/stdlib"
 )
 

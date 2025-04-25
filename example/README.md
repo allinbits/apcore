@@ -26,7 +26,7 @@ The steps are:
 
 Build the example's binary:
 
-`go install github.com/go-fed/apcore/example`
+`go install github.com/allinbits/apcore/example`
 
 This binary will be referred to as `example`.
 

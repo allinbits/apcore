@@ -19,7 +19,7 @@ package models
 import (
 	"database/sql"
 
-	"github.com/go-fed/apcore/util"
+	"github.com/allinbits/apcore/util"
 )
 
 var _ Model = &PrivateKeys{}

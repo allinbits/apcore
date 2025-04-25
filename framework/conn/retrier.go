@@ -20,10 +20,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/go-fed/apcore/framework/config"
-	"github.com/go-fed/apcore/paths"
-	"github.com/go-fed/apcore/services"
-	"github.com/go-fed/apcore/util"
+	"github.com/allinbits/apcore/framework/config"
+	"github.com/allinbits/apcore/paths"
+	"github.com/allinbits/apcore/services"
+	"github.com/allinbits/apcore/util"
 )
 
 type retrier struct {

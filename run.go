@@ -22,8 +22,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/go-fed/apcore/app"
-	"github.com/go-fed/apcore/util"
+	"github.com/allinbits/apcore/app"
+	"github.com/allinbits/apcore/util"
 )
 
 // Run will launch the apcore server.

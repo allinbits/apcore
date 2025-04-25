@@ -22,11 +22,11 @@ import (
 	"net/http"
 	"net/url"
 
+	"github.com/allinbits/apcore/framework/conn"
+	"github.com/allinbits/apcore/services"
+	"github.com/allinbits/apcore/util"
 	"github.com/go-fed/activity/pub"
 	"github.com/go-fed/activity/streams/vocab"
-	"github.com/go-fed/apcore/framework/conn"
-	"github.com/go-fed/apcore/services"
-	"github.com/go-fed/apcore/util"
 )
 
 var _ pub.CommonBehavior = &instanceActorCommonBehavior{}
