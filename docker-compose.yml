@@ -1,0 +1,38 @@
+version: "3.8"
+
+services:
+  postgres:
+    image: postgres:15
+    container_name: apcore-postgres
+    environment:
+      POSTGRES_USER: apcore
+      POSTGRES_PASSWORD: secret
+      POSTGRES_DB: pgdb
+    volumes:
+      - ./data/postgres:/var/lib/postgresql/data:z
+    ports:
+      - "5432:5432"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U apcore"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  apcore:
+    build:
+      context: .
+      privileged: true
+      dockerfile: Dockerfile
+    container_name: apcore-app
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      - CONFIG_FILE=/data/config/config.ini
+    volumes:
+      - ./data:/data:z
+    ports:
+      - "8443:443"
+      - "8888:80"
+    restart: unless-stopped

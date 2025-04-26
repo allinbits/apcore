@@ -17,9 +17,15 @@
 package main
 
 import (
+	"embed"
+	_ "embed"
+
 	"github.com/allinbits/apcore"
 	"github.com/allinbits/apcore/app"
 )
+
+//go:embed templates/*.tmpl
+var templatesFS embed.FS
 
 func main() {
 	// Build an instance of our struct that satisfies the Application
@@ -35,7 +41,8 @@ func main() {
 	// satisfy.
 	var a app.Application
 	var e error
-	a, e = newApplication("templates/*.tmpl")
+
+	a, e = newApplication(templatesFS, "templates/*.tmpl")
 	if e != nil {
 		panic(e)
 	}

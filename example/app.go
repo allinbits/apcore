@@ -20,6 +20,7 @@ import (
 	"context"
 	"fmt"
 	"html/template"
+	"io/fs"
 	"net/http"
 	"net/url"
 	"strings"
@@ -82,8 +83,8 @@ type App struct {
 }
 
 // newApplication creates a new App for the framework to use.
-func newApplication(glob string) (*App, error) {
-	t, err := template.New("").Funcs(fm).ParseGlob(glob)
+func newApplication(fs fs.FS, glob string) (*App, error) {
+	t, err := template.New("").Funcs(fm).ParseFS(fs, glob)
 	if err != nil {
 		return nil, err
 	}
