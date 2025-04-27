@@ -14,10 +14,10 @@ data/certs/key.pem data/certs/cert.pem: | data/certs
 certs: data/certs/key.pem data/certs/cert.pem
 
 up:
-	@docker compose up -d
+	@docker compose up -d --build
 
 down:
-	@docker compose down
+	@docker compose down -v --remove-orphans
 
 # Remove only certificate files
 clean-certs:
